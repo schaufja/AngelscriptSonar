@@ -1,7 +1,7 @@
 # AngelscriptSonar
 Rudimentary Sonar for Sven Co-op. In Angelscript
 
-!!!IMPORTANT NOTE!!!
+!!!IMPORTANT NOTE!!! <br>
 Beta 1.0 includes logic to offset the rotation of the sonar projection based on a quirk of func_vehicle_custom starting facing west but most entities starting east. This will be improved in the future to include a toggle between a mobile sonar, stationary, and func_vehicle_custom corrected rotation modes
 
 To install:
