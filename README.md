@@ -14,6 +14,7 @@ void MapStart() <br>
 To setup in Hammer: <br>
 Have an entity to project the sonar (func_vehicle_custom for example) <br>
 Create your trigger_script at the center of your sonar display <br>
+(I personally recommend you give it a map unit or two buffer to help the sprite rendering)<br>
 Turn off Smart-Edit and add the following keys to your trigger_script with the appropriate values as listed: <br>
 <br>
 $s_sourceName - Name of entity which projects sonar (e.g. func_vehicle_custom) <br>
