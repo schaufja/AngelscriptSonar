@@ -6,10 +6,10 @@ Un-zip into /Sven Co-op/svencoop so that sonar.as ends up in /maps/scripts
 
 To add to map script, call Sonar::Init() in the MapStart() function as shown below:
 
-void MapStart()
-{
-  Sonar::Init()
-}
+void MapStart() <br>
+{ <br>
+  Sonar::Init() <br>
+} <br>
  
 To setup in Hammer: <br>
 Have an entity to project the sonar (func_vehicle_custom for example) <br>
