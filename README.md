@@ -8,7 +8,7 @@ To add to map script, call Sonar::Init() in the MapStart() function as shown bel
 
 void MapStart() <br>
 { <br>
-  &nbsp;&nbsp;Sonar::Init() <br>
+  &nbsp;&nbsp;Sonar::Init(); <br>
 } <br>
  
 To setup in Hammer: <br>
