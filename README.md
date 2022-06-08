@@ -1,6 +1,16 @@
 # AngelscriptSonar
 Rudimentary Sonar for Sven Co-op. In Angelscript
 
+To install:
+Un-zip into /Sven Co-op/svencoop so that sonar.as ends up in /maps/scripts
+
+To add to map script, call Sonar::Init() in the MapStart() function as shown below:
+
+void MapStart()
+{
+  Sonar::Init()
+}
+
 To setup in Hammer:
 Have an entity to project the sonar (func_vehicle_custom for example)
 Create your trigger_script at the center of your sonar display
