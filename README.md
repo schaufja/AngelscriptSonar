@@ -10,7 +10,7 @@ void MapStart()
 {
   Sonar::Init()
 }
-
+ 
 To setup in Hammer:
 Have an entity to project the sonar (func_vehicle_custom for example)
 Create your trigger_script at the center of your sonar display
