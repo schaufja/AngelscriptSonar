@@ -9,6 +9,8 @@ Un-zip into /Sven Co-op/svencoop so that sonar.as ends up in /maps/scripts
 
 To add to map script, call Sonar::Init() in the MapStart() function as shown below:
 
+#include "../sonar"
+
 void MapStart() <br>
 { <br>
   &nbsp;&nbsp;Sonar::Init(); <br>
